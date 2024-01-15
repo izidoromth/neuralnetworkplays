@@ -1,0 +1,15 @@
+C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\bin\Debug\net6.0\NNPlaysCsharp.exe
+C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\bin\Debug\net6.0\NNPlaysCsharp.deps.json
+C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\bin\Debug\net6.0\NNPlaysCsharp.runtimeconfig.json
+C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\bin\Debug\net6.0\NNPlaysCsharp.dll
+C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\bin\Debug\net6.0\NNPlaysCsharp.pdb
+C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\obj\Debug\net6.0\NNPlaysCsharp.csproj.AssemblyReference.cache
+C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\obj\Debug\net6.0\NNPlaysCsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\obj\Debug\net6.0\NNPlaysCsharp.AssemblyInfoInputs.cache
+C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\obj\Debug\net6.0\NNPlaysCsharp.AssemblyInfo.cs
+C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\obj\Debug\net6.0\NNPlaysCsharp.csproj.CoreCompileInputs.cache
+C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\obj\Debug\net6.0\NNPlaysCsharp.dll
+C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\obj\Debug\net6.0\refint\NNPlaysCsharp.dll
+C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\obj\Debug\net6.0\NNPlaysCsharp.pdb
+C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\obj\Debug\net6.0\NNPlaysCsharp.genruntimeconfig.cache
+C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\obj\Debug\net6.0\ref\NNPlaysCsharp.dll
