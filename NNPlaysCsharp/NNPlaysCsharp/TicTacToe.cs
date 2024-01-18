@@ -9,9 +9,13 @@ namespace NNPlaysCsharp
     public  class TicTacToe
     {
         int[] board;
-        public TicTacToe()
+        Player playerOne;
+        Player playerTwo;
+        public TicTacToe(Player _playerOne, Player _playerTwo)
         {
             board = new int[9];
+            playerOne = _playerOne;
+            playerTwo = _playerTwo;
         }
 
         public void StartGame()
@@ -19,20 +23,20 @@ namespace NNPlaysCsharp
             Console.WriteLine("Game started");
 
             int moves = 0;
-            int player = 1;
+            Player player = playerOne;
             while (moves < 9)
             {
                 Console.Clear();
-                DrawGameboard();
-                int pos;
-                Console.WriteLine("Player {0}'s turn:", player);
-                if(!int.TryParse(Console.ReadLine(), out pos))
+                DrawGameboard(board);
+
+                Console.WriteLine("Player {0}'s turn:", player.id);
+                while(!player.MakeMove(ref board, GetAvailableMoves(player.id, board)))
                 {
                     Console.WriteLine("Illegal move.");
-                    continue;
-                }
+                };
 
-                int gameState = MakePlay(pos, player);
+                int gameState = CheckGameState(board);
+
                 if(gameState == -1)
                 {
                     Console.WriteLine("Illegal move.");
@@ -41,36 +45,44 @@ namespace NNPlaysCsharp
                 else if(gameState != 0)
                 {
                     Console.Clear();
-                    DrawGameboard();
-                    Console.WriteLine("{0} wins!", ConvertGameSymbol(player));
+                    DrawGameboard(board);
+                    Console.WriteLine("{0} wins!", ConvertGameSymbol(player.id));
                     return;
                 }
 
-                player = player == 1 ? 2 : 1;
+                player = player.id == playerOne.id ? playerTwo : playerOne;
                 moves++;
             }
 
             Console.Clear();
-            DrawGameboard();
+            DrawGameboard(board);
             Console.WriteLine("It's a draw!");
         }
 
-        public int MakePlay(int pos, int player)
-        {
-            if (!CheckLegalMove(pos))
-                return -1;
-
-            board[pos] = player;
-
-            return CheckGameState();
-        }
-
-        bool CheckLegalMove(int pos)
+        public static bool CheckLegalMove(int pos, int[] board)
         {
             return pos >= 0 && pos <= 8 && board[pos] == 0;
         }
 
-        int CheckGameState()
+        public static int[][] GetAvailableMoves(int player, int[] board)
+        {
+            List<int[]> availableMoves = new List<int[]>();
+            for(int i = 0; i < 9; i++)
+            {
+                if (board[i] == 0)
+                {
+                    int[] move = board.ToArray();
+                    move[i] = player;
+                    availableMoves.Add(move);
+                }
+            }
+            return availableMoves.ToArray();
+        }
+
+        /// <summary>
+        /// Return the player's number if the player wins; 0 if it's a draw;
+        /// </summary>
+        public static int CheckGameState(int[] board)
         {
             //check vertical and horizontal lines
             for(int i = 0; i <= 6; i = i+3)
@@ -90,7 +102,7 @@ namespace NNPlaysCsharp
             return 0;
         }
 
-        void DrawGameboard()
+        public static void DrawGameboard(int[] board)
         {
             for(int i = 0; i <= 6; i = i+3)
             {
@@ -100,7 +112,7 @@ namespace NNPlaysCsharp
             }
         }
 
-        string ConvertGameSymbol(int symbol)
+        public static string ConvertGameSymbol(int symbol)
         {
             if (symbol == 0)
                 return " ";

@@ -13,3 +13,8 @@ C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlays
 C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\obj\Debug\net6.0\NNPlaysCsharp.pdb
 C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\obj\Debug\net6.0\NNPlaysCsharp.genruntimeconfig.cache
 C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\obj\Debug\net6.0\ref\NNPlaysCsharp.dll
+C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\bin\Debug\net6.0\AForge.dll
+C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\bin\Debug\net6.0\AForge.Genetic.dll
+C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\bin\Debug\net6.0\AForge.Math.dll
+C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\bin\Debug\net6.0\AForge.Neuro.dll
+C:\Users\MatheusIzidoro\Projects 2024.1\neuralnetworkplays\NNPlaysCsharp\NNPlaysCsharp\obj\Debug\net6.0\NNPlaysCsharp.csproj.CopyComplete
